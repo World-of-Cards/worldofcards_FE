@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "react": "^16.9.0",
-    "react-dom": "npm:@hot-loader/react-dom"
+    "react-dom": "npm:@hot-loader/react-dom",
+    "react-router-dom": "^5.0.1"
   },
   "scripts": {
     "dev": "webpack-dev-server --open",
