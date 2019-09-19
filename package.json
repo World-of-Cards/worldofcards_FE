@@ -1,36 +1,27 @@
 {
-  "name": "woc-frontend",
+  "name": "worldofcards_FE",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:/KZellweger/worldofcards_FE.git",
-  "author": "Linus Vettiger <linus4123@gmail.com>",
+  "repository": "https://github.com/KZellweger/worldofcards_FE.git",
+  "author": "Vettiger, Linus <linus.vettiger@novartis.com>",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.0",
-    "eslint": "^6.4.0",
-    "eslint-plugin-react": "^7.14.3",
-    "html-webpack-plugin": "^3.2.0",
-    "jest": "^24.9.0",
-    "node-sass": "^4.12.0",
-    "prop-types": "^15.7.2",
-    "react-hot-loader": "^4.12.13",
-    "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.1"
-  },
   "dependencies": {
+    "next": "^9.0.6",
     "react": "^16.9.0",
-    "react-dom": "npm:@hot-loader/react-dom",
-    "react-router-dom": "^5.0.1"
+    "react-dom": "^16.9.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --open",
-    "build": "webpack -p"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "jest": "^24.9.0"
   }
 }
