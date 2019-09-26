@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
     jest: true,
+    "cypress/globals": true,
   },
   extends: [
     'airbnb',
@@ -20,7 +21,8 @@ module.exports = {
   },
   plugins: [
     'react',
+    'cypress'
   ],
   rules: {
-  },
+  }
 };
