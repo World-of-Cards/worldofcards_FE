@@ -17,7 +17,7 @@
     "start": "next start",
     "cy:run": "cypress run",
     "test": "yarn cy:run && jest",
-    "now-build": "cypress install && jest && yarn dev & wait-on http://localhost:3000 && cypress run && yarn build"
+    "now-build": "jest && next build"
   },
   "devDependencies": {
     "cypress": "^3.4.1",
@@ -27,7 +27,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
-    "jest": "^24.9.0",
-    "wait-on": "^3.3.0"
+    "jest": "^24.9.0"
   }
 }
