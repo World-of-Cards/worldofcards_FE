@@ -1,5 +1,4 @@
 {
-  "name": "woc-frontend",
   "version": 2,
-  "target": "serverless"
+  "name": "woc-frontend"
 }
