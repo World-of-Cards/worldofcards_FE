@@ -17,7 +17,7 @@
     "start": "next start",
     "cy:run": "cypress run",
     "test": "yarn cy:run && jest",
-    "now-build": "jest && next build"
+    "now-build": "jest --passWithNoTests && next build"
   },
   "devDependencies": {
     "cypress": "^3.4.1",
