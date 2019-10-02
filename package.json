@@ -17,8 +17,10 @@
     "start": "next start",
 
     "cy:run": "cypress run",
-    "ci": "start-server-and-test start http://localhost:3000 cy:run",
-    "test": "jest --passWithNoTests",
+    "cy:record": "cypress run --record",
+    "test": "yarn test:unit",
+    "test:unit": "jest --passWithNoTests",
+    "test:e2e": "start-server-and-test start http://localhost:3000 cy:record",
     "now-build": "next build"
   },
   "devDependencies": {

@@ -16,5 +16,5 @@ cache:
 install:
   - yarn
 script:
-  - yarn test
-  - $(yarn bin)/cypress run --record
+  - yarn test:unit
+  - yarn test:e2e
