@@ -15,9 +15,11 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+
     "cy:run": "cypress run",
-    "test": "yarn cy:run && jest",
-    "now-build": "jest --passWithNoTests && next build"
+    "ci": "start-server-and-test start http://localhost:3030 cy:run",
+    "test": "jest --passWithNoTests",
+    "now-build": "next build"
   },
   "devDependencies": {
     "cypress": "^3.4.1",
@@ -27,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
+    "start-server-and-test": "^1.10.3",
     "jest": "^24.9.0"
   }
 }
