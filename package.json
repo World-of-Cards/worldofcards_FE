@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next build && next start",
 
     "cy:run": "cypress run",
     "cy:record": "cypress run --record",
